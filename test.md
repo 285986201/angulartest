@@ -16,21 +16,21 @@ $routeProvider.when(url, {
 </pre>
 
 ### 参数说明：
-** 1. template:  **
-*如果我们只需要在ng-view中插入简单的HTML内容，则使用该参数：*    
+** 1. template:** 
+如果我们只需要在ng-view中插入简单的HTML内容，则使用该参数：*    
 
-** 2. templateUrl:  **  
+ ** 2. templateUrl: **
 如果我们只需要在ng-view中插入HTML模板文件，则使用该参数  
 <pre>
   $routeProvider.when('/computers', {
     templateUrl:'views/computers.html', 
   });
 </pre>  
-** 3. controller:  **  
+** 3. controller: **
    function、string或数组类型，在当前模板上执行的controller函数，生成新的scope.  
-** 4. controllerAs:  **  
+** 4. controllerAs: ** 
    string类型，为controller指定别名。  
-** 5. redirectTo:  **  
-   重定向的地址。  
-** 6. resolve:  **  
+ ** 5. redirectTo:**  
+   重定向的地址。  
+** 6. resolve: **  
    指定当前controller所依赖的其他模块  
