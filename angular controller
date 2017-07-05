@@ -1,6 +1,1 @@
-#解析
-##### angularJS 应用程序有ng-app定义。应用程序在<div>内运行。
-> ng-contoller="myCtrl 属性使一个angularJs指令。用于定义一个控制器
-> angularJS使用$scope对象来调用控制器。
-> 在angularJS中，$scope是一个应用对象（属于应用变量和函数）。
-> 控制器的$scope（相当于作用域、控制范围）用来保存AngularJS Model(模型)的对象
+# 解析
